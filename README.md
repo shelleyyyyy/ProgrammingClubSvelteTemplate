@@ -1,38 +1,62 @@
-# create-svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Creating a project
+# First Install Node
 
-If you're seeing this, you've probably already done this step. Congrats!
+Click on the appropriate version of node and install
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+```url
+https://nodejs.org/en/download
 ```
 
-## Developing
+verify the install with these commands in the terminal
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+```
+npm -v
 
-```bash
+```
+and 
+```
+node -v
+```
+
+# Install Git
+
+You will need this to clone the repository
+
+## Installing on Windows
+
+```
+https://github.com/git-for-windows/git/releases/download/v2.40.0.windows.1/Git-2.40.0-64-bit.exe
+```
+Download this and go through the install instructions
+
+
+## Installign on Mac
+
+
+```
+https://sourceforge.net/projects/git-osx-installer/
+```
+Visit this link and hit downlaod, then follow the install instructions.
+
+
+# Finally clone the repository
+
+Use this command
+
+```
+git clone https://github.com/shelleyyyyy/ProgrammingClubSvelteTemplate.git
+```
+then open the folder in the IDE of your choice and in the root folder run this command to install all of the dependencies
+
+```
+npm i
+```
+
+next you can run your web app with this terminal command
+
+```
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+# DONE
